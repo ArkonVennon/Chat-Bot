@@ -1,0 +1,723 @@
+{
+   "intents":[
+ {
+   "tag": "greeting",
+   "patterns": [
+      "Hi",
+      "How are you?",
+      "Is anyone there?",
+      "Hello",
+      "Good day",
+      "What's up",
+      "how are ya",
+      "heyy",
+      "whatsup",
+      "??? ??? ??",
+      "Help please",
+      "Help"
+   ],
+   "responses": [
+      "Hello!",
+      "Good to see you!",
+      "Hi there, how can I help?"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "goodbye",
+   "patterns": [
+      "cya",
+      "see you",
+      "bye bye",
+      "See you later",
+      "Goodbye",
+      "I am Leaving",
+      "Bye",
+      "Have a Good day",
+      "talk to you later",
+      "ttyl",
+      "i got to go",
+      "gtg",
+      "no more questions"
+
+   ],
+   "responses": [
+      "Goodbye!",
+      "Come back soon",
+      "any more questions?"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "creator",
+   "patterns": [
+      "what is the name of your developers",
+      "what is the name of your creators",
+      "what is the name of the developers",
+      "what is the name of the creators",
+      "who created you",
+      "your developers",
+      "your creators",
+      "who are your developers",
+      "developers",
+      "you are made by",
+      "you are made by whom",
+      "who created you",
+      "who create you",
+      "creators",
+      "who made you",
+      "who designed you"
+   ],
+   "responses": [
+      "Arkin Dhawan"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "name",
+   "patterns": [
+      "name",
+      "your name",
+      "do you have a name",
+      "what are you called",
+      "what is your name",
+      "what should I call you",
+      "whats your name?",
+      "what are you",
+      "who are you",
+      "who is this",
+      "what am i chatting to",
+      "who am i taking to",
+      "what are you"
+   ],
+   "responses": [
+      "I am a Chatbot."
+   ],
+   "context_set": ""
+},
+{ 
+   "tag": "Options",
+   "patterns": [
+      "What is your job?",
+      "why have you been created?",
+      "how can you help",
+      "what do you know",
+      "what do you do",
+      "what is your purpose",
+      "what can you do",
+      "what are the thing you can do",
+      "things you can do",
+      "what can u do for me",
+      "how u can help me",
+      "why i should use you"
+   ],
+   "responses": [
+      "I can tell you about Thapar University",
+      "I can tell you About the admissions and councelling procedure",
+      "To help you with the admissions and councelling procedure",
+      "I can Ask a mentor to solve your quries in Real-Time Basis",
+      "I can solve your quries regarding Thapar University",
+      "I can answer to low-intermediate questions regarding college",
+      "You can ask me questions regarding college, and i will try to answer them"
+
+   ],
+   "context_set": ""
+}, 
+
+
+{
+   "tag":"about",
+   "patterns":[
+      "thapar",
+      "Thapar university",
+      "tell me about thapar",
+      "give information about thapar",
+      "is thapar a good collage",
+      "how good is thapar",
+      "is thapar a university or institute"
+
+   ],
+   "responses":[
+      "Founded in 1956, Thapar Institute of Engineering & Technology (TIET) is one of the oldest and finest institutions of India, producing world class engineers by imparting quality education for 65+ years. With a campus spread across sprawling 250 acres, TIET, located at the heart of the beautiful city of Patiala, has been breaking new grounds in engineering education,research and innovation.It has been ranked 28th in 'Engineering' category in the top Engineering Institutes in the country and 31st in ‘University’ category in the NIRF rankings, and has been accredited with an 'A+' grade by the National Assessment and Accreditation Council (NAAC)."
+   ]
+},
+
+
+{
+   "tag": "location",
+   "patterns": [
+      "where is the college located",
+      "where is the collage located",
+      "college is located at",
+      "collage is located at",
+      "where is college",
+      "where is collage",
+      "where is college located",
+      "where is collage located",
+      "address of college",
+      "address of collage",
+      "how to reach college",
+      "how to reach collage",
+      "college location",
+      "college address",
+      "wheres the college",
+      "wheres the collage",
+      "where is collage",
+      "how can I reach college",
+      "how can I reach collage",
+      "whats is the college address",
+      "whats is the collage address",
+      "what is the address of college",
+      "what is the address of collage",
+      "where is thapar university",
+      "address",
+      "location"
+   ],
+   "responses": [
+      "<a target=\"_blank\" href=\"https://goo.gl/maps/uwwcHPNgAjAp33ka9\"> here</a>"
+   ],
+   "context_set": ""
+},
+
+{
+   "tag": "Deans",
+   "patterns":[
+      "who is the princple?",
+      "who is the dean",
+      "where is the dean",
+      "how many deans are there?",
+      "where cam i find the dean during class timings?",
+      "how to contact the dean"
+   ],
+   "responses":[
+      "Thapar has 4 Deans,Namely : DoAA(DEAN OF ACADEMIC AFFAIRS),DoSA(Dean OF Student AFFAIRS),DoFA(Dean of Faculty Affairs) and DoRDC(Dean of Research and Development Cell)",
+      "Please be specific about which dean"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "DoSA",
+   "patterns":[
+      "who is DoSA?",
+      "who is Dosa?",
+      "what is dosa",
+      "how to contact dosa?",
+      "dean of student affairs"
+
+   ],
+   "responses":[
+      "DoSA(Dean OF Student AFFAIRS)",
+      "Prof.Inderveer Chana is the Dosa",
+      "contact dosa @ dosa@thapar.edu"
+   ],
+   "context_set": ""
+
+},
+{
+   "tag": "DoAA",
+   "patterns":[
+      "who is DoAA?",
+      "who is Doaa?",
+      "what is doaa",
+      "how to contact doaa?",
+      "dean of acacemic affairs"
+
+   ],
+   "responses":[
+      "DoAA(DEAN OF ACADEMIC AFFAIRS)",
+      "Prof. Maninder Singh is the Doaa",
+      "contact doaa @ doaa@thapar.edu"
+   ],
+   "context_set": ""
+},
+
+
+{
+   "tag": "number",
+   "patterns": [
+      "more info",
+      "contact info",
+      "how to contact college",
+      "college telephone number",
+      "college number",
+      "What is your contact no",
+      "Contact number?",
+      "how to call you",
+      "College phone no?",
+      "how can i contact you",
+      "Can i get your phone number",
+      "how can i call you",
+      "phone number",
+      "phone no",
+      "call"
+   ],
+   "responses": [
+      "You can contact at - ADMISSION QUERIES: +91-8288008121, +91-8288008120, +91-8146052821 or admissions@thapar.edu and OFFICE:+91-175-2393021 or registrar@thapar.edu "
+
+   ],
+   "context_set": ""
+},
+{
+   "tag": "Rules and regulation",
+   "patterns": [
+      "What are the rules regarding smoking or vaping on campus?",
+      "What is the policy for alcohol or drug use on campus? ",
+      " What are the policies regarding parking on campus? ",
+      " what are the gate timings ?",
+      "What are the policies for student conduct and behavior on campus?",
+      " sexual harresment policy",
+      "what are therules and regulation followed inside the university",
+      "rules","regulation",
+      "what are acadmic regulation","rules regarding acadmeics","academic policy"
+   ],
+   "responses": [
+      " For detailed information about the rules & regulations of the institute at <a target=\"_blank\" href=\"https://www.thapar.edu/images/admission17/DISCIPLINE.pdf\"> here</a>,",
+      " For detailed information about the acdemic rules & regulations of the institute at <a target=\"_blank\" href=\"https://www.thapar.edu/images/pdf/academic_regulations_june2022.pdf\"> here</a>,"
+   ],
+   "context_set": " rules and regulations"
+},
+
+{
+   "tag": "ragging",
+   "patterns": [
+      "ragging",
+      "is ragging practice active in college",
+      "does college have any antiragging facility",
+      "is there any ragging cases",
+      "is ragging done here",
+      "ragging against",
+      "antiragging facility",
+      "ragging juniors",
+      "ragging history",
+      "ragging incidents"
+   ],
+   "responses": [
+      "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+   ],
+   "context_set": " rules and regulations"
+},
+
+ {
+   "tag": "hours",
+   "patterns": [
+      "timing of college",
+      "what is college timing",
+      "working days",
+      "when are you guys open",
+      "what are your hours",
+      "hours of operation",
+      "when is the college open",
+      "college timing",
+      "what about college timing",
+      "is college open on saturday",
+      "tell something about college timing",
+      "what is the college  hours",
+      "when should i come to college",
+      "when should i attend college",
+      "what is my college time","when can i go inside the campus","when will the main gates close",
+      "college timing","main gate timings","main gate open till",
+      "timing college"
+   ],
+   "responses": [
+      "College is open 8am-6pm Monday-Saturday!",
+      "The main gate timings are 6 am to 7:30 pm for both day scholar and hostellers."
+   ],
+   "context_set": ""
+},
+
+{
+   "tag":"departments",
+   "patterns":[
+      "list of schools",
+      "list of departmets",
+      "what department can i find at thapar",
+      "what undegraduate engeenerings can i find at thapar",
+      "schools of thapar",
+      "is there a department of biology",
+      "does thapar have a alumni interactio n cell"
+   ],
+   "responses":[
+      "Thapar Institute of Engineering & Technology offers its academic programmes under three units: 1)school , 2)department , 3) centers : for more information <a target=\"_blank\" href=\"https://www.thapar.edu/academics\"> go to this site </a>,"
+   ]
+},
+
+ {
+   "tag": "course",
+   "patterns": [
+      "list of courses",
+      "list of courses offered",
+      "list of courses offered in",
+      "what are the courses offered in your college?",
+      "courses?",
+      "courses offered",
+      "courses offered in (your univrsity(UNI) name)",
+      "courses you offer",
+      "branches?",
+      "courses available at UNI?",
+      "branches available at your college?",
+      "what are the courses in UNI?",
+      "what are branches in UNI?",
+      "what are courses in UNI?",
+      "branches available in UNI?",
+      "can you tell me the courses available in UNI?",
+      "can you tell me the branches available in UNI?",
+      "computer engineering?",
+      "computer",
+      "Computer engineering?",
+      "it",
+      "IT",
+      "Information Technology",
+      "AI/Ml",
+      "Mechanical engineering",
+      "Chemical engineering",
+      "Civil engineering",
+      "Biotechnology ",
+      "computer science engeenering",
+      "electronics and computer",
+      "electrical"
+   ],
+   "responses": [
+      "Our university offers Bio Medical Engineering,Bio Technology,Chemical Engineering,Civil Engineering,Computer Engineering ,Computer Science and Engineering,Electrical Engineering,Electronics and Computer Engineering,etc"
+   ],
+   "context_set": ""
+},
+
+{
+   "tag":"IEP",
+   "patterns":[
+      "what is IEP",
+      "international program",
+      "student exchange",
+      "2+2 thapar",
+      "trinity dublin",
+      "toledo",
+      "abroad university",
+      "foregin education",
+      "international exchange program",
+      "dublin",
+      "leeds"
+   ],
+   "responses":[
+      "In an attempt to allow the students at TIET to gain a truly world-class educational experience, TIET has started an International Engineering program with the world’s leading varsities like Trinity College in Dublin, Ireland; University of New South Wales, Australia; Leeds University in The UK; University of Queensland, Australia & Toledo University in the United States.After completing the first two year at TIET, these student join the partner university. At the end of the program the student receives th UG degrees from the partner varsity visit <a target=\"_blank\" href=\"https://iep.thapar.edu/\"> for detailed information about the same. </a>,"
+   ]
+
+},
+
+
+{
+   "tag": "scholarship",
+   "patterns": [
+      "scholarship",
+      "Is scholarship available",
+      "scholarship engineering",
+      "scholarship it",
+      "scholarship ce",
+      "scholarship mechanical",
+      "scholarship civil",
+      "scholarship chemical",
+      "scholarship for AI/ML",
+      "available scholarships",
+      "scholarship for computer engineering",
+      "scholarship for IT engineering",
+      "scholarship for mechanical engineering",
+      "scholarship for civil engineering",
+      "scholarship for chemical engineering",
+      "list of scholarship",
+      "comps scholarship",
+      "IT scholarship",
+      "mechanical scholarship",
+      "civil scholarship",
+      "chemical scholarship",
+      "automobile scholarship",
+      "first year scholarship",
+      "second year scholarship",
+      "third year scholarship",
+      "fourth year scholarship"
+   ],
+   "responses": [
+      "Thapar Institute of Engineering and Technology offers scholarships to deserving candidates, keeping in mind all the necessary criteria. Here at Thapar, we believe that hard work must be rewarded which would further play an eminent role in a student's academic as well as co-curricular life.Students at TIET will be given various Scholarships based on 10+2 aggregate marks and AIR of JEE Main - 2022. Scholarships will also be issued based on the financial status of a student. During their university tenure, scholarships are offered at specific levels.The detail about the scholarships that are offered to the students based on eligibility criteria are mentioned on Thapar's official website.For details and updates visit <a target=\"_blank\" href=\"https://www.thapar.edu/admissions/pages/scholarships\">here</a>"
+   ],
+   "context_set": ""
+},
+
+{
+   "tag": "infrastructure",
+   "patterns": [
+      "how is college infrastructure",
+      "infrastructure",
+      "college infrastructure"
+   ],
+   "responses": [
+      "Our University has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection"
+   ],
+   "context_set": ""
+},
+
+{
+   "tag": "hostel",
+   "patterns": [
+      "hostel facility",
+      "hostel servive",
+      "hostel location",
+      "hostel address",
+      "hostel facilities",
+      "hostel fees",
+      "Does college provide hostel",
+      "Is there any hostel",
+      "Where is hostel",
+      "do you have hostel",
+      "do you guys have hostel",
+      "hostel",
+      "hostel capacity",
+      "what is the hostel fee",
+      "how to get in hostel",
+      "what is the hostel address",
+      "how far is hostel from college",
+      "hostel college distance",
+      "where is the hostel",
+      "how big is the hostel",
+      "distance between college and hostel",
+      "distance between hostel and college"
+   ],
+   "responses": [
+      "For hostel detail visit <a target=\"_blank\" href=\"https://www.thapar.edu/students/pages/hostels\"> here</a>"
+   ],
+   "context_set": ""
+},
+
+{
+   "tag": "canteen",
+   "patterns": [
+      "food facilities",
+      "canteen facilities",
+      "canteen facility",
+      "is there any canteen",
+      "Is there a cafetaria in college",
+      "Does college have canteen",
+      "Where is canteen",
+      "where is cafetaria",
+      "canteen",
+      "Food",
+      "Cafetaria"
+   ],
+   "responses": [
+      "Our university has canteen with variety of food available"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "admission",
+   "patterns": [
+      "what is the process of admission",
+      "what is the admission process",
+      "How to take admission in your college",
+      "What is the process for admission",
+      "admission",
+      "admission process"
+   ],
+   "responses": [
+      "Application can also be submitted online through the Unversity's  <a target=\"_blank\" href=\"https://admission.thapar.edu/\">website</a>"
+   ],
+   "context_set": ""
+},
+
+ {
+   "tag": "fees",
+   "patterns": [
+      "information about fee",
+      "information on fee",
+      "tell me the fee",
+      "college fee",
+      "fee per semester",
+      "what is the fee of each semester",
+      "what is the fees of each year",
+      "what is fee",
+      "what is the fees",
+      "how much is the fees",
+      "fees for first year",
+      "fees",
+      "about the fees",
+      "tell me something about the fees",
+      "What is the fees of hostel",
+      "how much is the fees",
+      "hostel fees",
+      "fees for AC room",
+      "fees for non-AC room",
+      "fees for Ac room for girls",
+      "fees for non-Ac room for girls",
+      "fees for Ac room for boys",
+      "fees for non-Ac room for boys"
+   ],
+   "responses": [
+      "For Fee detail visit <a target=\"_blank\" href=\"https://admission.thapar.edu/downloads/625ff8b12c6a8091776355_05TUITIONFEEANDOTHERDUES.pdf\"> here</a>"
+   ],
+   "context_set": ""
+},
+ 
+
+ {
+   "tag": "document",
+   "patterns": [
+      "document to bring",
+      "documents needed for admision",
+      "documents needed at the time of admission",
+      "documents needed during admission",
+      "documents required for admision",
+      "documents required at the time of admission",
+      "documents required during admission",
+      "What document are required for admission",
+      "Which document to bring for admission",
+      "documents",
+      "what documents do i need",
+      "what documents do I need for admission",
+      "documents needed"
+   ],
+   "responses": [
+      "To know more about document required visit <a target=\"_blank\" href=\"https://admission.thapar.edu/downloads/605c559c46070773088278_06_ADMISSION_TO_FIRST_YEAR_UG_PROGRAM.pdf\"> here</a>"
+   ],
+   "context_set": ""
+},
+
+ 
+ {
+   "tag": "placement",
+   "patterns": [
+      "What is college placement",
+      "Which companies visit in college",
+      "What is average package",
+      "companies visit",
+      "package",
+      "About placement",
+      "placement",
+      "recruitment",
+      "companies"
+   ],
+   "responses": [
+      "To know about placement visit <a target=\"_blank\" href=\"https://www.thapar.edu/placements\">here</a>"
+   ],
+   "context_set": ""
+},
+ 
+
+
+ 
+ {
+   "tag": "college intake",
+   "patterns": [
+      "max number of students",
+      "number of seats per branch",
+      "number of seats in each branch",
+      "maximum number of seats",
+      "maximum students intake",
+      "What is college intake",
+      "how many stundent are taken in each branch",
+      "seat allotment",
+      "seats"
+   ],
+   "responses": [
+      " For detailed information vist <a target=\"_blank\" href=\"https://www.thapar.edu/images/pdf/ADMISSION%20TO%20FIRST%20YEAR%20UG%20PROGRAM.pdf\"> here</a>,"
+   ],
+   "context_set": ""
+},
+ 
+ 
+{
+   "tag": "vacation",
+   "patterns": [
+      "holidays",
+      "when will semester starts",
+      "when will semester end",
+      "when is the holidays",
+      "list of holidays",
+      "Holiday in these year",
+      "holiday list",
+      "about vacations",
+      "about holidays",
+      "When is vacation",
+      "When is holidays",
+      "how long will be the vacation"
+   ],
+   "responses": [
+      "Academic calender is given to you by your class-soordinators after you join your respective classes"
+   ],
+   "context_set": ""
+},
+
+{
+   "tag": "sports",
+   "patterns": [
+      "sports and games",
+      "give sports details",
+      "sports infrastructure",
+      "sports facilities",
+      "information about sports",
+      "Sports activities",
+      "please provide sports and games information"
+   ],
+   "responses": [
+      "Our university encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target=\"_blank\" href=/\"https://www.thapar.edu/students/pages/introduction-sports\">here</a>"
+   ],
+   "context_set": ""
+},
+
+ {
+   "tag": "random",
+   "patterns": [
+      "I love you",
+      "Will you marry me",
+      "Do you love me"
+   ],
+   "responses": [
+      "I am not program for this, please ask appropriate query"
+   ],
+   "context_set": ""
+},
+
+ {
+   "tag": "swear",
+   "patterns": [
+      "fuck",
+      "bitch",
+      "shut up",
+      "hell",
+      "stupid",
+      "idiot",
+      "dumb ass",
+      "asshole",
+      "fucker"
+   ],
+   "responses": [
+      "please use appropriate language",
+      "Maintaining decency would be appreciated"
+   ],
+   "context_set": ""
+},
+
+ 
+ {
+   "tag": "salutaion",
+   "patterns": [
+      "okk",
+      "okie",
+      "nice work",
+      "well done",
+      "good job",
+      "thanks for the help",
+      "Thank You",
+      "its ok",
+      "Thanks",
+      "Good work",
+      "k",
+      "ok",
+      "okay"
+   ],
+   "responses": [
+      "I am glad I helped you",
+      "welcome, anything else i can assist you with?"
+   ],
+   "context_set": ""
+}
+ 
+ 
+]
+}
