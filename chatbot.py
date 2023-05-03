@@ -38,9 +38,7 @@ words = sorted(list(set(words)))
 classes = sorted(list(set(classes)))
 
 print (len(documents), "documents")
-
 print (len(classes), "classes", classes)
-
 print (len(words), "unique lemmatized words", words)
 
 
@@ -92,3 +90,18 @@ hist = model.fit(np.array(train_x), np.array(train_y), epochs=1000, batch_size=5
 model.save('chatbot_model.h5', hist)
 
 print("model created")
+plt.figure(figsize=(10,7))
+plt.plot(hist.history['loss'], label = 'Training Loss', color = 'purple')
+plt.title('Training Loss')
+plt.xlabel('Epochs')
+plt.ylabel('Loss')
+plt.legend()
+plt.show()
+
+plt.figure(figsize=(10,7))
+plt.plot(hist.history['accuracy'], label = 'Training Accuracy', color = 'purple')
+plt.title('Training Accuracy ')
+plt.xlabel('Epochs')
+plt.ylabel('Accuracy')
+plt.legend()
+plt.show()
