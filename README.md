@@ -16,5 +16,4 @@ This is a web-based chatbot that can answer queries related to admissions in a c
 * HTML, CSS, and JavaScript for the front-end interface
 * Bootstrap CSS framework for responsive design
 
-Arkin Dhawan(ENC3)
-Thapar
+
